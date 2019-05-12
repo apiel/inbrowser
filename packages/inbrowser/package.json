@@ -1,5 +1,5 @@
 {
-    "name": "inbrowser",
+    "name": "browsevent",
     "version": "0.0.2",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -24,5 +24,5 @@
     "devDependencies": {
         "tslint": "^5.12.1"
     },
-    "gitHead": "a4aa269715fdf3eeb7b0c6fb7efec1a4f44d042d"
+    "gitHead": "19f0e1b9367a821a9c1afce104a674725c1a1434"
 }
