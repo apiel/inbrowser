@@ -1,0 +1,29 @@
+{
+    "name": "inbrowser",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Alexandre Piel <alexandre.piel@gmail.com>",
+    "description": "inBrowser TBD.",
+    "license": "MIT",
+    "homepage": "https://github.com/apiel/inbrowser",
+    "keywords": [
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apiel/inbrowser"
+    },
+    "scripts": {
+        "prepublishOnly": "yarn build",
+        "prebuild": "rm -rf dist/",
+        "build": "tsc -p tsconfig.json",
+        "lint": "tslint -p tsconfig.json -c tslint.json"
+    },
+    "dependencies": {
+        "typescript": "^3.2.4"
+    },
+    "devDependencies": {
+        "tslint": "^5.12.1"
+    },
+    "gitHead": "62840b589778baa9eaf6765eb1699f007911456b"
+}
