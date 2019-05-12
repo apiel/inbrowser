@@ -1,0 +1,31 @@
+<head>
+</head>
+
+<body>
+
+    <input id="demo" onkeypress="spy(event)" />
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        var exports = {};
+    </script>
+    <script>
+        function spy(event) {
+            console.log('p', event);
+            const res = {};
+            for (a in event) {
+                if (['string', 'number', 'boolean'].includes(typeof (event[a]))) {
+                    res[a] = event[a];
+                }
+            }
+            console.log('json', JSON.stringify(res));
+            ev = event;
+        }
+        function myFunction() {
+            const element = document.getElementById("demo");
+            keypress(element, 'a');
+        }
+    </script>
+    <script type="text/javascript" src="./dist/index.js"></script>
+</body>
+
+</html>
