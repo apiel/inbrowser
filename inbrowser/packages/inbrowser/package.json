@@ -7,8 +7,7 @@
     "description": "inBrowser TBD.",
     "license": "MIT",
     "homepage": "https://github.com/apiel/inbrowser",
-    "keywords": [
-    ],
+    "keywords": [],
     "repository": {
         "type": "git",
         "url": "https://github.com/apiel/inbrowser"
